@@ -1,0 +1,67 @@
+/*Сброс стилей*/
+
+*, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/*Стили таблицы*/
+.table__row {
+    display: flex;
+    width: 100%;
+    max-width: 600px;
+}
+
+
+
+
+
+/*Стили клетки*/
+.cell {
+    border: 1px solid black;
+    width: 25%;
+    padding: 5px;
+}
+
+.cell_red {
+    background-color: #9a3a60;
+}
+
+.cell_yellow {
+    background-color: yellow;
+}
+
+.cell_blue {
+    background-color: deepskyblue;
+}
+
+
+
+.cell__info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cell__symbol {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.number {
+    text-align: right;
+}
+
+
+
+
+@media screen and (max-width: 500px) {
+    * {
+        font-size: 8px;
+    }
+}
+
